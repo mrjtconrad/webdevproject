@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="style.css"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>Conrads Campers</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script>
+function validateForm() {
+  let x = document.forms["myForm"]["fname"].value;
+  if (x == "") {
+    alert("Name must be filled out");
+    return false;
+  }
+}
+</script>
+</head>
+<body>
+    
+<div class="logo"> 
+<a href="https://auroral-analysts.000webhostapp.com/index.html">
+<img src="cclogo.png" alt="Conrad Campers Logo">
+</div>  
+
+  
+<div class="header">
+<div class="mail">
+Designed by <a href="mailto:x21200548@student.ncirl.ie">Justin Conrad</a> / 21200548 / NCI
+</div>
+</div>
+
+<div class="navbar">
+  <a href="index.html">Home</a>
+  <a href="about.html">About Us</a>
+  <a href="forsale.html">Campers For Sale</a>
+  <a href="contact.html" class="right">Contact Us</a>
+</div>
+
+<div class="row">
+  <div class="side">
+   <h2>A little bit about Conrads Campers</h2>
+    <p>Conrads Campers was founded by Justin & Leona Conrad in Spring 2023. Justin a long time IT guy & Leona a nurse, decided to embark on a new venture sourcing, upgrading and selling campervans to Irish customers.</p>
+    </div>
+
+  <div class="main">
+    <h2>Contact Conrads Campers</h2>
+    
+<form action="/action_page.php" method="post">
+  Full Name: <input type="text" name="name" required><p>
+  Phone Number: <input type="number" name="phnumber" required><p>
+  Email Address: <input type="email" name="email" required><p>
+  Message: <input type="text" name="message" required><p>
+  <input type="submit" value="Submit">
+</form>
+
+<p>If you click submit, without filling out the text field,
+your browser will display an error message.</p>
+
+
+    </div>
+    </div>
+
+
+<div class="footer">
+<a href="https://www.linkedin.com/in/justin-conrad-9aba8141/" class="fa fa-linkedin"></a>
+</div>
+
+</body>
+</html>
